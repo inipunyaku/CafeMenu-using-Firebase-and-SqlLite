@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/bgwhite_rounded"
+    android:outlineAmbientShadowColor="@color/cardview_light_background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_photo"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:src="@color/teal_700"
+        />
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingHorizontal="10dp"
+        android:text="Food Name"
+        android:background="#60000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:text="Harga"
+        android:paddingHorizontal="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingHorizontal="10dp"
+        android:text="Rp. 10000"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
